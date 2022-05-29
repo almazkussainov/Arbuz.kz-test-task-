@@ -13,6 +13,20 @@
 		220E5E502841FD0900C061B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220E5E4E2841FD0900C061B5 /* Main.storyboard */; };
 		220E5E522841FD0B00C061B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220E5E512841FD0B00C061B5 /* Assets.xcassets */; };
 		220E5E552841FD0B00C061B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220E5E532841FD0B00C061B5 /* LaunchScreen.storyboard */; };
+		220E5E5F284203E400C061B5 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5E5E284203E400C061B5 /* FormView.swift */; };
+		220E5E6128420D3A00C061B5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5E6028420D3A00C061B5 /* MenuView.swift */; };
+		220E5E642842108200C061B5 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5E632842108200C061B5 /* InfoPanelView.swift */; };
+		220E5E672842110900C061B5 /* WatermelonsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5E662842110900C061B5 /* WatermelonsData.swift */; };
+		220E5E6A2842113B00C061B5 /* WatermelonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5E692842113B00C061B5 /* WatermelonModel.swift */; };
+		22FA60CF284348E6005C7B91 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60CE284348E6005C7B91 /* Constant.swift */; };
+		22FA60D128434912005C7B91 /* FarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60D028434912005C7B91 /* FarmModel.swift */; };
+		22FA60D328434952005C7B91 /* FarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60D228434952005C7B91 /* FarmData.swift */; };
+		22FA60D528434984005C7B91 /* FarmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60D428434984005C7B91 /* FarmDetailView.swift */; };
+		22FA60D7284349A0005C7B91 /* FarmCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60D6284349A0005C7B91 /* FarmCardView.swift */; };
+		22FA60D9284349C3005C7B91 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60D8284349C3005C7B91 /* ChooseView.swift */; };
+		22FA60DB28434A0C005C7B91 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60DA28434A0C005C7B91 /* PlaceView.swift */; };
+		22FA60DD28434A28005C7B91 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA60DC28434A28005C7B91 /* GridView.swift */; };
+		22FA60E028434AA9005C7B91 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 22FA60DF28434AA9005C7B91 /* iPhoneNumberField */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,19 @@
 		220E5E512841FD0B00C061B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220E5E542841FD0B00C061B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220E5E562841FD0B00C061B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220E5E5E284203E400C061B5 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		220E5E6028420D3A00C061B5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		220E5E632842108200C061B5 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		220E5E662842110900C061B5 /* WatermelonsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonsData.swift; sourceTree = "<group>"; };
+		220E5E692842113B00C061B5 /* WatermelonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonModel.swift; sourceTree = "<group>"; };
+		22FA60CE284348E6005C7B91 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		22FA60D028434912005C7B91 /* FarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmModel.swift; sourceTree = "<group>"; };
+		22FA60D228434952005C7B91 /* FarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmData.swift; sourceTree = "<group>"; };
+		22FA60D428434984005C7B91 /* FarmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmDetailView.swift; sourceTree = "<group>"; };
+		22FA60D6284349A0005C7B91 /* FarmCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmCardView.swift; sourceTree = "<group>"; };
+		22FA60D8284349C3005C7B91 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		22FA60DA28434A0C005C7B91 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		22FA60DC28434A28005C7B91 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FA60E028434AA9005C7B91 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,60 @@
 		220E5E472841FD0900C061B5 /* Arbuz */ = {
 			isa = PBXGroup;
 			children = (
+				22FA60CD284348D4005C7B91 /* Constant */,
+				220E5E682842112800C061B5 /* Model */,
+				220E5E65284210F900C061B5 /* Data */,
 				220E5E482841FD0900C061B5 /* AppDelegate.swift */,
 				220E5E4A2841FD0900C061B5 /* SceneDelegate.swift */,
 				220E5E4C2841FD0900C061B5 /* ViewController.swift */,
+				220E5E6228420D4000C061B5 /* SwiftUI Views */,
 				220E5E4E2841FD0900C061B5 /* Main.storyboard */,
 				220E5E512841FD0B00C061B5 /* Assets.xcassets */,
 				220E5E532841FD0B00C061B5 /* LaunchScreen.storyboard */,
 				220E5E562841FD0B00C061B5 /* Info.plist */,
 			);
 			path = Arbuz;
+			sourceTree = "<group>";
+		};
+		220E5E6228420D4000C061B5 /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				220E5E6028420D3A00C061B5 /* MenuView.swift */,
+				22FA60D428434984005C7B91 /* FarmDetailView.swift */,
+				22FA60D6284349A0005C7B91 /* FarmCardView.swift */,
+				22FA60D8284349C3005C7B91 /* ChooseView.swift */,
+				220E5E632842108200C061B5 /* InfoPanelView.swift */,
+				22FA60DA28434A0C005C7B91 /* PlaceView.swift */,
+				22FA60DC28434A28005C7B91 /* GridView.swift */,
+				220E5E5E284203E400C061B5 /* FormView.swift */,
+			);
+			path = "SwiftUI Views";
+			sourceTree = "<group>";
+		};
+		220E5E65284210F900C061B5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				220E5E662842110900C061B5 /* WatermelonsData.swift */,
+				22FA60D228434952005C7B91 /* FarmData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		220E5E682842112800C061B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				220E5E692842113B00C061B5 /* WatermelonModel.swift */,
+				22FA60D028434912005C7B91 /* FarmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22FA60CD284348D4005C7B91 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				22FA60CE284348E6005C7B91 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +156,9 @@
 			dependencies = (
 			);
 			name = Arbuz;
+			packageProductDependencies = (
+				22FA60DF28434AA9005C7B91 /* iPhoneNumberField */,
+			);
 			productName = Arbuz;
 			productReference = 220E5E452841FD0900C061B5 /* Arbuz.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 220E5E3C2841FD0900C061B5;
+			packageReferences = (
+				22FA60DE28434AA9005C7B91 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 220E5E462841FD0900C061B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220E5E5F284203E400C061B5 /* FormView.swift in Sources */,
+				22FA60D128434912005C7B91 /* FarmModel.swift in Sources */,
 				220E5E4D2841FD0900C061B5 /* ViewController.swift in Sources */,
 				220E5E492841FD0900C061B5 /* AppDelegate.swift in Sources */,
+				220E5E6128420D3A00C061B5 /* MenuView.swift in Sources */,
 				220E5E4B2841FD0900C061B5 /* SceneDelegate.swift in Sources */,
+				220E5E672842110900C061B5 /* WatermelonsData.swift in Sources */,
+				22FA60D528434984005C7B91 /* FarmDetailView.swift in Sources */,
+				22FA60CF284348E6005C7B91 /* Constant.swift in Sources */,
+				22FA60DD28434A28005C7B91 /* GridView.swift in Sources */,
+				22FA60DB28434A0C005C7B91 /* PlaceView.swift in Sources */,
+				22FA60D7284349A0005C7B91 /* FarmCardView.swift in Sources */,
+				22FA60D328434952005C7B91 /* FarmData.swift in Sources */,
+				220E5E642842108200C061B5 /* InfoPanelView.swift in Sources */,
+				22FA60D9284349C3005C7B91 /* ChooseView.swift in Sources */,
+				220E5E6A2842113B00C061B5 /* WatermelonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22FA60DE28434AA9005C7B91 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22FA60DF28434AA9005C7B91 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FA60DE28434AA9005C7B91 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 220E5E3D2841FD0900C061B5 /* Project object */;
 }
